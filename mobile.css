@@ -222,6 +222,134 @@ body {
 	font-size: 16px;
 	line-height: 1.2;
 }
+
+
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+	
+}
+#body #featured1 {
+	margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	
+}
+#body #featured1 img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#body #featured1 h1 {
+	position: absolute;
+	top: 2%;
+	left: 0%;
+	color: #fff;
+	display: inline;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body #featured1 h1 span {
+	background: #252525;
+	display: inline-block;
+	width: 100%
+	padding: 15px 28px 12px;
+}
+#body #featured1 > div {
+	position: absolute;
+	top: 15%;
+	left: 4%;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	heigth: auto;
+	
+}
+#body #featured1 > div img {
+	border: 2px solid #292929;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#body #featured1 > div .article {
+	background: #fbeedc;
+	display: inline-block;
+	left: 4%;
+	margin: 0 auto;
+	padding: 30px 40px 0;
+	width: 85%;
+	
+}
+
+#body #featured1 > div .article h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+#body #featured1 > div .article h3 {
+	text-align: left;
+	color: #252525;
+	line-height: 24px;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+#body #featured1 > div .article h4 a {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 0 10px;
+	padding: 10px 10px 10px;
+}
+
+#body #featured1 > div .article p {
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+	margin: 10px 5px 5px;
+}
+
+
+#body #featured1 > div .article dt{
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+	margin: 5px 20px 5px;
+	
+
+}
+
+#body #featured1 > div .article dd{
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	font-size: 18px;
+
+}
+
+
+#body #featured1 div > .article img {
+	height: 280px;
+	width: auto;
+	float: right;
+	margin: 0 0 15px;
+}
+
 #footer {
 	padding: 10px 0 25px;
 }
