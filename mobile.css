@@ -350,6 +350,44 @@ body {
 	margin: 0 0 15px;
 }
 
+#body #featured1 > div .article a {
+	float:right;
+ 	background: #ffaa80;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	margin: 10px 0 0;
+	padding: 0px 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body #featured1 > div .article a:hover{
+	background: #ff9966;
+
+}
+
+
+
+#body #featured1 > div .reference a{
+	float: left;
+	color: #000;
+	background: none;
+	text-align: left;
+	font-size: 16px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-decoration: none;
+	text-transform: none;	
+}
+
+#body #featured1 > div .reference a:hover{
+	color: #ff9966;
+	background: none;
+
+}
+
 #footer {
 	padding: 10px 0 25px;
 }
